@@ -201,10 +201,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .profile-thumb,
 .fh5co-cover .display-tc .profile-thumb {
   background-size: cover !important;
+  background-size: 100% 100% !important;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 197px;
+  height: 200px;
   width: 200px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -212,6 +213,8 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  color: #211F21;
+  background-color: #211F21;
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
