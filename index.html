@@ -81,7 +81,7 @@
 							<div class="profile-thumb" style="background: url(images/utkvctr.png);"></div>
 							<h1><b>Utkarsh Sharma</b></h1>
 
-							<h3>Data Scientist | iOS Developer | ML/AI Enthusiast | Ethereum | FinTech</h3>
+							<h3 id="pauseResume"></h3>
 
 							<p>
 								<ul class="fh5co-social-icons">
@@ -679,6 +679,28 @@
 		  });
 	</script>
 
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+    <script>
+        new TypeIt("#pauseResume", {
+            speed: 30,
+            startDelay: 700
+        })
+        .type("data sci", {delay: 100})
+		.move(-7, {speed: 25, delay: 250})
+		.delete('d')
+		.type('D')
+		.move(5, {speed: 25, delay: 250})
+		.delete('s')
+		.type('S')
+        .move('END')
+		.type('ence | iOS Developer | ML Enthusiast', {delay: 600})
+		.move(-11, {speed: 25, delay: 250})
+		.type('/AI')
+		.move('END')
+		.type('| Ethereum | FinTech', {delay: 100})
+		.go();
+    </script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
