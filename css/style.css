@@ -604,8 +604,16 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .company {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   font-size: 16px;
+  font-weight: normal;
+  color: #bfbfbf;
+}
+
+.location {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
   font-weight: normal;
   color: #bfbfbf;
 }
